@@ -1,0 +1,32 @@
+{
+  "name": "bint",
+  "version": "0.0.1",
+  "description": "A binary tree implementation, providing a standalone class that can be used as a data structure in other projects.",
+  "main": "bint.js",
+  "scripts": {
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varbrad/bint.git"
+  },
+  "keywords": [
+    "binary tree",
+    "binary",
+    "tree",
+    "computer science",
+    "computer",
+    "science",
+    "algorithm",
+    "alorithms",
+    "cs",
+    "bintree",
+    "bint"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varbrad/bint/issues"
+  },
+  "homepage": "https://github.com/varbrad/bint#readme"
+}
