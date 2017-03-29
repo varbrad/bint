@@ -1,6 +1,6 @@
 {
   "name": "bint",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A binary tree implementation, providing a standalone class that can be used as a data structure in other projects.",
   "main": "bint.js",
   "typings": "dist/bint.d.ts",
