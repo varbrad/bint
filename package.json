@@ -4,7 +4,10 @@
   "description": "A binary tree implementation, providing a standalone class that can be used as a data structure in other projects.",
   "main": "bint.js",
   "scripts": {
-
+    "build": "npm run build:ts && npm run build:umd",
+    "build:ts": "tsc",
+    "build:umd": "rollup -c",
+    "lint": "tslint -c tslint.json 'src/*.ts'"
   },
   "repository": {
     "type": "git",
@@ -28,5 +31,14 @@
   "bugs": {
     "url": "https://github.com/varbrad/bint/issues"
   },
-  "homepage": "https://github.com/varbrad/bint#readme"
+  "homepage": "https://github.com/varbrad/bint#readme",
+  "devDependencies": {
+    "rollup": "^0.41.6",
+    "rollup-plugin-uglify": "^1.0.1",
+    "tslint": "^5.0.0",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "bintrees": "^1.0.1"
+  }
 }
